@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&family=Lato:ital,wght@1,700&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&family=Lato:ital,wght@1,700&family=Lobster&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,700&family=Gwendolyn:wght@700&family=Lato:ital,wght@1,700&family=Lobster&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cormorant+Garamond:ital,wght@1,700&family=Gwendolyn:wght@700&family=Lato:ital,wght@1,700&family=Lobster&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cormorant+Garamond:ital,wght@1,700&family=Gwendolyn:wght@700&family=Kanit:ital@1&family=Lato:ital,wght@1,700&family=Lobster&family=Satisfy&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.mainPic{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.mainContent{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.mainContent-text{
+    max-width: 50%;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    transform: translate(50%,40%);
+    font-family: 'Lobster', cursive;
+    background-color: rgba(0, 0, 0, .8);
+    color: #fff;
+    padding: 5rem 5rem;
+}
+
+section{
+    height: 100vh;
+    background-image: url("../../Resource/Pictures/wallpaper.jpg");
+    
+    overflow: hidden;
+    background-color: rgb(236, 219, 188);
+    margin: 50px,50px;
+    
+}
+
+.section1-heading{
+    width: 40%;
+    margin:auto;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+.section1-heading h1{
+    font-family: 'Satisfy', cursive;
+    color: rgb(150, 122, 33);
+    
+}
+
+.section1-heading span{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(150, 122, 33);
+    display: block;
+    
+}
+
+.section1-para{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 1px;
+    text-shadow: 5px solid tomato;
+}
+
+.services{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    margin-top: 100px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.a1{
+    width: 20%;
+    height: 170px;
+    background-color: violet;
+}
+
+.a2{
+    width: 20%;
+    height: 170px;
+    background-color: yellow;
+}
+
+.a3{
+    width: 20%;
+    height: 170px;
+    background-color: black;
+}
+
+.a4{
+    width: 20%;
+    height: 170px;
+    background-color: darkorange;
+}
+
+.a5{
+    width: 20%;
+    height: 170px;
+    background-color: rgb(94, 11, 73);
+}
+
+.select-services-img{
+    position: absolute;
+    width: 262px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.select-services-text{
+    position: absolute;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 15%;
+    background-color: rgba(230, 99, 23, 0.836);
+    transform: translate(20%,190%);
+    text-transform: uppercase;
+    color: seashell;
+}
