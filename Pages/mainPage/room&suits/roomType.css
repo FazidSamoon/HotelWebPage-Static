@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&family=Lato:ital,wght@1,700&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&family=Lato:ital,wght@1,700&family=Lobster&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,700&family=Gwendolyn:wght@700&family=Lato:ital,wght@1,700&family=Lobster&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cormorant+Garamond:ital,wght@1,700&family=Gwendolyn:wght@700&family=Lato:ital,wght@1,700&family=Lobster&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cormorant+Garamond:ital,wght@1,700&family=Gwendolyn:wght@700&family=Kanit:ital@1&family=Lato:ital,wght@1,700&family=Lobster&family=Satisfy&display=swap');
+
+
+html{
+    overflow-x: hidden!important;
+}
+
+section{
+    width: 50%;
+    height: 100vh;
+    
+    margin-left: 36px;
+    margin-bottom: 20px;
+}
+
+blockquote{
+    padding-top: 10px;
+    margin-top: 20px;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-break:strict;
+    font-family: "Lato" , sans-serif;
+    color: rgb(85, 80, 80);
+}
+
+.brief{
+    position: absolute;
+    height: 60%;
+    width: 30%;
+    background-color: rgba(201, 194, 194, 0.4);
+    transform: translate(190%,-120%);
+}
+
+.brief h2{
+    color: rgb(150, 122, 33);
+    margin-left: 40px;
+    padding-top: 40px;
+}
+
+.brief li{
+    color: rgb(85, 80, 80);
+    padding-top: 19px;
+    margin-left: 10px;
+}
+
+.book{
+    background-color: #967f57;
+    
+    width: 260px;
+    height: 50px;
+    text-align:center;
+    color: white;
+    position: absolute;
+    transform: translate(155%,50%);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.book h4{
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.book:hover{
+    background-color:rgba(96, 7f, 57, .5);
+}
+
+
+h1{
+    text-align: center;
+    color: #967f57;
+}
+
+.features{
+    height: 70vh;
+    width: 100%;
+    
+    margin-bottom: 70px;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.features li{
+    padding-top: 20px;
+    width: 80%;
+    color: rgb(85, 80, 80);
+    letter-spacing: 2px;
+}
