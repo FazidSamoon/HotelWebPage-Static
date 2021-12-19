@@ -6,7 +6,7 @@ header{
     
     align-items: center;
     
-    background-color: rgb(255, 255, 255);
+    background-color: #967f57;
     width: 100%;
     z-index: 1;
 }
@@ -41,6 +41,6 @@ li, a{
     font-family: "Lato" , sans-serif;
     font-weight: 800;
     font-size: 18px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
